@@ -14,7 +14,7 @@ def fix_code(code):
     response = requests.post("https://api.openai.com/v1/engines/text-davinci-002/completions",
                              headers={
                                  "Content-Type": "application/json",
-                                 "Authorization": "Bearer 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"
+                                 "Authorization": "Bearer KEY"
                              },
                              json={
                                  "prompt": f"Fix the following code in python: {code} (Just write the fixed code)",
